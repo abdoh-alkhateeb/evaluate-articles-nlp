@@ -1,10 +1,12 @@
 # Evaluate Articles With NLP
 
-This is a basic web app that has a fairly basic front end that makes use of nothing more than HTML DOM API, whereas its back end is powered by ExpressJS. The app makes use of technologies like Webpack, Jest, Workbox, SASS, and a plethora of wonderful NPM packages. These technologies in turn make development and production environments healthier.
+This is a basic web app that has a fairly basic front end that makes use of nothing more than HTML DOM API, whereas its back end is powered by ExpressJS.
+
+The app exploits technologies like Webpack, Babel, SASS, Workbox, Jest, and a plethora of wonderful NPM packages. These technologies in turn make development and production environments healthier.
 
 ## Getting Started
 
-It is as simple as executing ```npm install``` and ```npm start``` commands through the terminal.
+It is as simple as executing ```npm install```, ```npm run build-prod```, and ```npm start``` commands through the terminal.
 Furthermore, the app will be hosted at http://localhost:8080/
 
 ## Features
