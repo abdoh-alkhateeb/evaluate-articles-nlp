@@ -9,9 +9,9 @@ function handleSubmit(event) {
 
     document.getElementById('results').innerHTML = 'Loading...';
 
-    fetch('http://localhost:8080/search')
+    fetch('http://localhost:8080/analyze')
       .then((res) => res.json())
-      .then(function (res) {
+      .then((res) => {
         const formdata = new FormData();
         formdata.append('key', res.key);
         formdata.append('url', formText);
